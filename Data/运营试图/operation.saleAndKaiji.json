@@ -1,0 +1,24 @@
+/**销量,开机量**/
+/**层级，机型编号，开始日期，结束日期，地包ID**/
+/**grade(默认为空),shoppingPk(默认为空),beginDate,endDate(默认为空),code**/
+/**品牌,入子池量,入库量,入库开机量,总开机量**/
+/****/
+{
+        "flag":true,
+        "output":[
+            {
+                "brand":"华为",
+                "inzichi":"12",
+                "inku":"0",
+                "inkaiji":"278",
+                "totalKaiji":"0"
+            },
+            {
+                "brand":"海信",
+                "inzichi":"1",
+                "inku":"0",
+                "inkaiji":"35",
+                "totalKaiji":"0"
+            }
+        ]
+}

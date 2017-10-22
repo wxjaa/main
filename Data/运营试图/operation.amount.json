@@ -1,0 +1,16 @@
+/**子池数据**/
+/**层级，机型编号，开始日期，结束日期，地包ID**/
+/**grade(默认为空),shoppingPk(默认为空),beginDate,endDate(默认为空),code**/
+/**区域名称,入库量,入库开机量,地包库存**/
+/****/
+{
+        "flag":true,
+        "output":[
+            {
+                "latnName":"锦江区",
+                "rukuCnt":"3",
+                "rukukaijiCnt":"3",
+                "kucunCnt":"3"
+            }
+        ]
+}

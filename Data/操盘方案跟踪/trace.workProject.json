@@ -1,0 +1,23 @@
+/**作业计划建议跟踪**/
+/**操盘方案ID**/
+/**projectId**/
+/****/
+/**渠道名称,建议内容,责任人,完成情况**/
+{
+        "flag":true,
+        "output":[
+            {
+                "channelName":"青羊宫1店",
+                "advise":"",
+                "charger":"",
+                "isComplete":""
+            },
+            {
+                "channelName":"青羊宫2店",
+                "advise":"",
+                "charger":"",
+                "isComplete":""
+            }
+        ]
+}
+

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- IE 兼容模式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>有工程</title>
+    <link href="../../lib/assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../../lib/assets/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../../lib/assets/css/ace-fonts.css"/>
+    <link rel="stylesheet" href="../../lib/assets/css/ace.min.css"/>
+    <link rel="stylesheet" href="../../lib/assets/css/chosen.css"/>
+    <link rel="stylesheet" href="../../lib/assets/css/ace-rtl.min.css"/>
+    <!--[if lt IE 9]>
+    <script src="../../lib/assets/js/html5shiv.js"></script>
+    <script src="../../lib/assets/js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="../../lib/css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="../../lib/css/main.css"/>
+    <style>
+        .table-footer > td {
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="bg-white">
+<div class="header-bg">
+    <div class="container">
+        <div class="navbar-container  clearfix  p-r0" id="navbar-container">
+            <div class="navbar-header pull-left mainchose flex">
+                <div class="logo lf line-height-100">
+                    <div class="dib vux-1px-r">
+                        <!--<img src="../../lib/img/logo.png" alt="">-->
+                    </div>
+                    <span class="font-102 color-white">终端智慧运营大数据平台</span>
+                </div>
+                <div class="lf m-l"></div>
+            </div><!-- /.navbar-header -->
+
+            <div class="navbar-header pull-right" role="navigation">
+                <ul class="nav ace-nav header-nav">
+                    <li class="layui-nav-item " id="">
+                        <a data-toggle="dropdown" class="dropdown-toggle p-lr" id="" href="#">
+                            <span>地包商A</span>
+                        </a>
+                    </li>
+                    <li class="layui-nav-item " id="">
+                        <a data-toggle="dropdown" class="dropdown-toggle p-lr" id="" href="#">
+                            <i class="icon-envelope icon-animated-vertical"></i>
+                            <span>信息</span>
+                        </a>
+                    </li>
+                    <li class="layui-nav-item " id="">
+                        <a data-toggle="dropdown" class="dropdown-toggle p-lr" id="" href="#">
+
+                            <span>退出</span>
+                        </a>
+                    </li>
+                </ul><!-- /.ace-nav -->
+            </div><!-- /.navbar-header -->
+        </div>
+    </div>
+
+</div>
+<div class="bg-white m-tb overflow-hidden">
+    <div class="container">
+        <!--导航-->
+        <div class="nav-list font-1 p-tb">
+            <div class="pull-left">
+                <i class=" icon-bar color-blue"></i>
+                全部导航
+            </div>
+            <ul class="pull-right">
+                <li class="p-lr dib"><a href="#" class="font-1">终端操作</a></li>
+                <li class="p-lr dib"><a href="#" class="font-1">运营视图</a></li>
+                <li class="p-lr dib"><a href="#" class="font-1">资源管理</a></li>
+                <li class="p-lr dib"><a href="#" class="font-1">权限管理</a></li>
+                <li class="p-l dib"><a href="#" class="font-1">统计分析</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="breadcrumbs" id="breadcrumbs">
+    <div class="container">
+        <ul class="breadcrumb">
+            <li>
+                <i class="icon-home home-icon"></i>
+                <a href="#" class="color-black">首页</a>
+            </li>
+
+            <li class="active color-blue">运营视图</li>
+        </ul>
+    </div>
+</div>
+<div class="main-container">
+    <div class="container">
+        <!--前置条件-->
+        <div class="pre-condition m-t2">
+            <div class="m-tb flex">
+                <div class="pre-item dib vux-1px flex" style="width: 240px">
+                    <div class="p-lr p-tb05 dib m-b0 bg-head color-black text-nowrap">品牌</div>
+                    <div class="ub-f1 flex select-drop ub-pre">
+                        <div class="ub-f1 p-lr text-overflow p-tb05 select-text">平平</div>
+                        <div class="p-lr05 "><i class="icon-angle-down font-102"></i></div>
+                        <div class=" ub-pab select-box vux-1px w100 hide">
+                            <div class="p-lr p-tb05 font-1 select-group">授课计划1</div>
+                            <div class="p-lr p-tb05 font-1 select-group">授课计划2</div>
+                            <div class="p-lr p-tb05 font-1 select-group">授课计划3</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pre-item dib vux-1px flex" style="width: 240px">
+                    <div class="p-lr p-tb05 dib m-b0 bg-head color-black text-nowrap">机型</div>
+                    <div class="ub-f1 flex select-drop ub-pre">
+                        <div class="ub-f1 p-lr text-overflow p-tb05 select-text">平平</div>
+                        <div class="p-lr05 "><i class="icon-angle-down font-102"></i></div>
+                        <div class=" ub-pab select-box vux-1px w100 hide">
+                            <div class="p-lr p-tb05 font-1 select-group">授课计划1</div>
+                            <div class="p-lr p-tb05 font-1 select-group">授课计划2</div>
+                            <div class="p-lr p-tb05 font-1 select-group">授课计划3</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="radio flex">
+                    <label class="p-l">
+                        <input value="date" name="dataType" checked type="radio" class="ace">
+                        <span class="lbl">日</span>
+                    </label>
+                    <label class="p-l">
+                        <input value="month" name="dataType" type="radio" class="ace">
+                        <span class="lbl">月</span>
+                    </label>
+                    <label class="p-l">
+                        <input value="range" name="dataType" type="radio" class="ace">
+                        <span class="lbl">区间</span>
+                    </label>
+                </div>
+                <div id="dateView" class="form-group ub-f1 m-l flex m-tb0">
+                    <div class="input-group ub-f1">
+                        <input class="form-control date-picker" id="startTime" type="text"
+                               data-date-format="yyyy-mm-dd" style="display: inline-block;width: 120px;"/>
+                        <span class="input-group-addon" style="">
+                            <i class="icon-calendar bigger-110"></i>
+                        </span>
+                    </div>
+                    <div id="endTimeView" class="flex hide ub-f1">
+                        <span>-</span>
+                        <div class="input-group ub-f1">
+                            <input class="form-control date-picker" id="endTime" type="text"
+                                   data-date-format="yyyy-mm-dd" style="display: inline-block;width:120px;"/>
+                            <span class="input-group-addon" style="">
+                            <i class="icon-calendar bigger-110"></i>
+                        </span>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="monthView" class="form-group hide ub-f1 m-l flex m-tb0">
+                    <div class="input-group ub-f1">
+                        <input class="form-control month-picker" id="month" type="text"
+                               data-date-format="yyyy-mm" style="display: inline-block;width: 120px;"/>
+                        <span class="input-group-addon" style="">
+                            <i class="icon-calendar bigger-110"></i>
+                        </span>
+                    </div>
+                </div>
+                <button class="btn btn-primary no-border">刷新视图</button>
+            </div>
+
+        </div>
+        <div class="row">
+            <h4>具体情况</h4>
+            <div class="col-sm-4">
+                <table class="table table-striped table-bordered">
+                    <thead>
+                    <tr>
+                        <th>品牌</th>
+                        <th>入子池量</th>
+                        <th>入库量</th>
+                        <th>入库开机量</th>
+                        <th>总开机量</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>华为</td>
+                        <td>12</td>
+                        <td></td>
+                        <td>278</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>海信</td>
+                        <td>1</td>
+                        <td></td>
+                        <td>27</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>小米</td>
+                        <td>12</td>
+                        <td></td>
+                        <td>278</td>
+                        <td></td>
+                    </tr>
+                    <tr class="table-footer">
+                        <td>合计</td>
+                        <td>12</td>
+                        <td></td>
+                        <td>278</td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+
+                </table>
+                <table class="table table-striped table-bordered">
+                    <thead>
+                    <tr>
+                        <th>地区</th>
+                        <th>入库量</th>
+                        <th>入库开机量</th>
+                        <th>渠道库存</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>锦江区</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>10</td>
+                    </tr>
+                    </tbody>
+
+                </table>
+                <table class="table table-striped table-bordered">
+                    <thead>
+                    <tr>
+                        <th>地区</th>
+                        <th>渠道总数</th>
+                        <th>已覆盖渠道数</th>
+                        <th>覆盖率</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>青羊区</td>
+                        <td>12</td>
+                        <td></td>
+                        <td>10%</td>
+                    </tr>
+                    <tr>
+                        <td>成华区</td>
+                        <td>1</td>
+                        <td></td>
+                        <td>30%</td>
+                    </tr>
+                    <tr>
+                        <td>锦江区</td>
+                        <td>12</td>
+                        <td></td>
+                        <td>100%</td>
+                    </tr>
+                    <tr class="table-footer">
+                        <td>合计</td>
+                        <td>12</td>
+                        <td></td>
+                        <td>278</td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+
+                </table>
+            </div>
+            <div id="map" class="col-sm-8" style="height:500px;">
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    window.jQuery || document.write("<script src='../../lib/assets/js/jquery-2.0.3.min.js'>" + "<" + "/script>");
+</script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=lZUUt9OlU34uCaA0tNt29btqd0IpyxHW"></script>
+<script src="../../lib/assets/js/bootstrap.min.js"></script>
+<script src="../../lib/assets/js/typeahead-bs2.min.js"></script>
+<script src="../../lib/assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="../../lib/assets/js/jquery.validate.min.js"></script>
+<script src="../../lib/assets/js/chosen.jquery.min.js"></script>
+<script src="../../lib/assets/js/ace-elements.min.js"></script>
+<script src="../../lib/assets/js/ace.min.js"></script>
+<script src="../../lib/assets/js/date-time/bootstrap-datepicker.min.js"></script>
+<script>
+    $(document).on('click', '.select-drop', function () {
+        $(this).find('.select-box').removeClass('hide')
+    })
+    $(document).on('click', '.select-box .select-group', function (e) {
+        e.stopPropagation()
+        e.preventDefault()
+        var selecthtml = $(this).html()
+        $(this).parent().siblings('.select-text').html(selecthtml)
+        $(this).parent().addClass('hide')
+    })
+    $('.date-picker').datepicker({
+        weekStart: 1,
+        autoclose: true,
+        forceParse: false,
+        language: 'zh-CN'
+    }).next().on(ace.click_event, function () {
+        $(this).prev().focus();
+    });
+    $('.month-picker').datepicker({
+        weekStart: 1,
+        autoclose: true,
+        startView: 'months',
+        maxViewMode: 'months',
+        minViewMode: 'months',
+        forceParse: false,
+        language: 'zh-CN'
+    }).next().on(ace.click_event, function () {
+        $(this).prev().focus();
+    });
+    var map = new BMap.Map("map");          // 创建地图实例
+    /*var point = new BMap.Point(116.404, 39.915);  // 创建点坐标
+    map.centerAndZoom(point, 10);*/
+    map.enableScrollWheelZoom(true);
+
+    function myFun(result) {
+        var cityName = result.name;
+        map.centerAndZoom(cityName, 10);
+        /* var bounds = map.getBounds();
+         console.log(bounds)
+         var sw = bounds.getSouthWest();
+         var ne = bounds.getNorthEast();
+         var lngSpan = Math.abs(sw.lng - ne.lng);
+         var latSpan = Math.abs(ne.lat - sw.lat);
+         for (var i = 0; i < 25; i ++) {
+             var point = new BMap.Point(sw.lng + lngSpan * (Math.random() * 0.7), ne.lat - latSpan * (Math.random() * 0.7));
+             var marker = new BMap.Marker(point);  // 创建标注
+             addMarker(point);
+             addClickHandler(marker);
+         }*/
+    }
+
+    var myCity = new BMap.LocalCity();
+    myCity.get(myFun);
+    map.addEventListener("zoomend", function () {
+        //   alert("地图缩放至：" + this.getZoom() + "级");
+    });
+    $(document).on('change','.ace',function (e) {
+        var dateType=$('.ace:checked').val()
+       console.log($('.ace:checked').val())
+        switch(dateType){
+            case 'date':
+                $("#dateView").removeClass('hide');
+                $("#endTimeView").addClass('hide');
+                $("#monthView").addClass('hide');
+                break
+            case 'month':
+                $("#dateView").addClass('hide');
+                // $("#endTimeView").removeClass('hide');
+                $("#monthView").removeClass('hide');
+                break
+            case 'range':
+                $("#dateView").removeClass('hide');
+                $("#endTimeView").removeClass('hide');
+                $("#monthView").addClass('hide');
+
+                break
+
+        }
+    })
+</script>
+
+
+</body>
+</html>

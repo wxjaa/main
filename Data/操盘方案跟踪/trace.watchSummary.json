@@ -1,0 +1,23 @@
+/**销售及库存监控**/
+/**操盘方案ID**/
+/**project**/
+/****/
+/**渠道名称,厅店销售能力特征,操盘产品销售特征,是否有促销人员,是否有专区专柜,操盘品牌影响力特征,目标日均销量,当前日均销量,差异度,当前库存**/
+
+{
+        "flag":true,
+        "output":[
+            {
+                "channelName":"",
+                "saleAbility":"",
+                "productPre":"",
+                "isPromote":"",
+                "isCounter":"",
+                "caopanEff":"",
+                "dailCnt":"",
+                "currentCnt":"",
+                "diff":"",
+                "currKucun":""
+            }
+         ]
+}

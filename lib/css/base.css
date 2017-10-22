@@ -881,8 +881,9 @@ ul li {
 
 .tag.active{
     position: relative;
-    border:1px dotted rgb(165,186,255);
+    border:1px dashed rgb(165,186,255);
     overflow: hidden;
+    color:rgb(165,186,255);
     font-family: FontAwesome;
     font-weight: normal;
     font-style: normal;

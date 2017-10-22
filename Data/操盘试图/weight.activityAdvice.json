@@ -1,0 +1,23 @@
+/**营销作业计划建议**/
+/**机型,地域ID（地图缩放层级ID）,层级**/
+/**shoppingPk,code,grade**/
+/****/
+/**渠道特征,建议**/
+
+{
+        "flag":true,
+        "output":[
+            {
+                "channelType":"高产高占",
+                "advice":""
+            },
+            {
+                "channelType":"高产低占",
+                "advice":""
+            },
+            {
+                "channelType":"低产低占",
+                "advice":""
+            }
+        ]
+}

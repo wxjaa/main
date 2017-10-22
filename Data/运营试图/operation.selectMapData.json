@@ -1,0 +1,14 @@
+/**获取地图数据**/
+/**层级，机型编号，开始日期，结束日期，地包ID**/
+/**grade(默认为空),shopping_pk(默认为空),begin_date,end_date(默认为空),code**/
+/****/
+/**填充地图内容JSON**/
+
+{
+        "flag":true,
+        "output":[
+            {
+            }
+            
+        ]
+}

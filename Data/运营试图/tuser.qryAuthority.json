@@ -1,0 +1,18 @@
+/**系统权限获取**/
+/**登录名**/
+/**login**/
+/**登录名,用户类型,用户ID，所属地市ID，所属地市，登录名**/
+/****/
+
+{
+        "flag":true,
+        "output":[
+            {
+                "name":"张三",
+                "type":"",
+                "code":"",
+                "latnId":"",
+                "loginCode":"dfafsdafasafsdfasd"
+            }
+        ]
+}

@@ -1,0 +1,28 @@
+/**区域名称,渠道总数,覆盖渠道,覆盖率**/
+/**层级，机型编号，开始日期，结束日期，地包ID**/
+/**grade(默认为空),shoppingPk(默认为空),beginDate,endDate(默认为空),code**/
+/**区域名称,渠道总数,覆盖渠道,覆盖率**/
+/****/
+{
+        "flag":true,
+        "output":[
+            {
+                "latnName":"青羊区",
+                "channelCnt":"2",
+                "coverCnt":"1",
+                "rate":"10%"
+            },
+             {
+                "latnName":"成华区",
+                "channelCnt":"3",
+                "coverCnt":"2",
+                "rate":"20%"
+            },
+             {
+                "latnName":"锦江区",
+                "channelCnt":"3",
+                "coverCnt":"2",
+                "rate":"3%"
+            }
+        ]
+}

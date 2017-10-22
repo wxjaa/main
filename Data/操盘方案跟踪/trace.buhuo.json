@@ -1,0 +1,34 @@
+/**补货作业计划建议**/
+/**操盘方案ID**/
+/**projectId**/
+/****/
+/**渠道名称,当前库存,近7日日均销量,价值段近7日销量,剩余支撑天数,补货建议**/
+{
+        "flag":true,
+        "output":[
+            {
+                "channelName":"青羊宫1店",
+                "currKucun":"0",
+                "re7DailyAvg":"1",
+                "re7ValueSale":"0",
+                "lastDays":"0",
+                "advice":"建议补货1台"
+            },
+            {
+                "channelName":"青羊宫2店",
+                "currKucun":"6",
+                "re7DailyAvg":"8",
+                "re7ValueSale":"10",
+                "lastDays":"2",
+                "advice":"建议补货6台"
+            },
+            {
+                "channelName":"青羊宫3店",
+                "currKucun":"2",
+                "re7DailyAvg":"1",
+                "re7ValueSale":"1",
+                "lastDays":"0",
+                "advice":"建议补货5台"
+            }
+        ]
+}  
