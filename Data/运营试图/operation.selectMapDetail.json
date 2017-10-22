@@ -1,0 +1,28 @@
+/**地图描点数据**/
+/**层级，机型编号，开始日期，结束日期，地包ID**/
+/**grade(默认为空),shopping_pk(默认为A空),begin_date,end_date(默认为空),code**/
+/****/
+/**区县,销量,库存**/
+{
+        "flag":true,
+        "output":[
+            {
+                "latnName":"青羊区",
+                "address":"青羊区28号",
+                "saleCnt":"30",
+                "kucunCnt":"5"
+            },
+            {
+                "latnName":"青羊区1",
+                "address":"青羊区28号",
+                "saleCnt":"30",
+                "kucunCnt":"5"
+            },
+            {
+                "latnName":"青羊区2",
+                "address":"青羊区28号",
+                "saleCnt":"30",
+                "kucunCnt":"5"
+            }
+        ]
+}

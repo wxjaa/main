@@ -6,12 +6,12 @@
     <!-- IE 兼容模式-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>有工程</title>
-    <link href="../../lib/assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../../lib/assets/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="../../lib/assets/css/ace-fonts.css" />
-    <link rel="stylesheet" href="../../lib/assets/css/ace.min.css" />
-    <link rel="stylesheet" href="../../lib/assets/css/chosen.css" />
-    <link rel="stylesheet" href="../../lib/assets/css/ace-rtl.min.css" />
+    <link href="../../lib/assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../../lib/assets/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../../lib/assets/css/ace-fonts.css"/>
+    <link rel="stylesheet" href="../../lib/assets/css/ace.min.css"/>
+    <link rel="stylesheet" href="../../lib/assets/css/chosen.css"/>
+    <link rel="stylesheet" href="../../lib/assets/css/ace-rtl.min.css"/>
     <!--[if lt IE 9]>
     <script src="../../lib/assets/js/html5shiv.js"></script>
     <script src="../../lib/assets/js/respond.min.js"></script>
@@ -97,69 +97,130 @@
                 <div class="p-lr font-1 p-tb02">数据录入</div>
             </div>
             <div class="m-tb flex">
-                <div class="pre-item dib vux-1px flex">
-                    <div class="p-lr p-tb05 dib m-b0 bg-head color-black text-nowrap">品牌</div>
-                    <div class="ub-f1 flex select-drop ub-pre">
-                        <div class="ub-f1 p-lr text-overflow p-tb05 select-text">平平</div>
-                        <div class="p-lr05 "><i class="icon-angle-down font-102"></i></div>
-                        <div class=" ub-pab select-box vux-1px w100 hide">
-                            <div class="p-lr p-tb05 font-1 select-group">授课计划1</div>
-                            <div class="p-lr p-tb05 font-1 select-group">授课计划2</div>
-                            <div class="p-lr p-tb05 font-1 select-group">授课计划3</div>
+                <div class="input-group width-100" style="padding:5px">
+                    <form class="form-inline " style="display: flex;">
+                        <div class="form-group " style="flex:1;display: flex">
+                            <input type="text" class="form-control" style="flex:1;padding-left:12px;width:500px"
+                                   id="exampleInputName2" placeholder="请输入渠道名称或地址">
                         </div>
-                    </div>
+                        <button type="submit" class="btn btn-default"
+                                style="margin-left:5px;padding:3px 50px;border-radius: 6px">
+                            <i class="icon-search"></i>
+                            查询
+                        </button>
+                        <button type="submit" class="btn btn-warning"
+                                data-toggle="modal" data-target="#myModal"
+                                style="margin-left:5px;padding:3px 50px;border-radius: 6px">
+                            <i class="icon-edit"></i>
+                            录入
+                        </button>
+                        <button type="submit" class="btn btn-info"
+                                style="margin-left:5px;padding:3px 50px;border-radius: 6px">
+                            <i class="icon-exit"></i>
+                            导出
+                        </button>
+                    </form>
+
                 </div>
-                <div class="pre-item dib vux-1px flex">
-                    <div class="p-lr p-tb05 dib m-b0 bg-head color-black text-nowrap">机型</div>
-                    <div class="ub-f1 flex select-drop ub-pre">
-                        <div class="ub-f1 p-lr text-overflow p-tb05 select-text">平平</div>
-                        <div class="p-lr05 "><i class="icon-angle-down font-102"></i></div>
-                        <div class=" ub-pab select-box vux-1px w100 hide">
-                            <div class="p-lr p-tb05 font-1 select-group">授课计划1</div>
-                            <div class="p-lr p-tb05 font-1 select-group">授课计划2</div>
-                            <div class="p-lr p-tb05 font-1 select-group">授课计划3</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                            <tr>
+                                <th class="center">
+                                    区域
+                                </th>
+                                <th class="center">
+                                    区域类型
+                                </th>
+                                <th class="center">
+                                    厅点名称
+                                </th>
+                                <th class="center">
+                                    是否营销活动
+                                </th>
+                                <th class="center">
+                                    营销活动开始时间
+                                </th>
+                                <th class="center">
+                                    营销活动结束时间
+                                </th>
+                                <th class="center">
+                                    营销活动类型
+                                </th>
+                                <th class="center">
+                                    是否有培训
+                                </th>
+                                <th class="center">
+                                    培训内容
+                                </th>
+                                <th class="center">
+                                    是否有广告
+                                </th>
+                                <th class="center">
+                                    广告内容
+                                </th>
+                                <th class="center">
+                                    是否有物料
+                                </th>
+                                <th class="center">
+                                    物料类型
+                                </th>
+                                <th class="center">
+                                    店奖金额
+                                </th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="center">
+                                    金牛区
+                                </td>
+                                <td class="center">类型</td>
+                                <td class="center">厅点</td>
+                                <td class="center">有</td>
+                                <td class="center">2017-10-20</td>
+                                <td class="center">2017-10-25</td>
+                                <td class="center">促销</td>
+                                <td class="center">有</td>
+                                <td class="center">学习JavaScript</td>
+                                <td class="center">没有</td>
+                                <td class="center"></td>
+                                <td class="center">有</td>
+                                <td class="center">什么物料</td>
+                                <td class="center">1000</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <div class="flex" style="justify-content: flex-end;align-items: center">
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination">
+                                    <li>
+                                        <a href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li>
+                                        <a href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <span>共100页, 跳转到</span>
+                            <input type="text" pattern="[0-9*]" class="form-control" id="exampleInputEmail2"
+                                   placeholder="" style="width:80px;">
+                            <span>页</span>
+                            <button type="submit" class="btn btn-default">确定</button>
                         </div>
-                    </div>
-                </div>
-                <div class="pre-item dib vux-1px flex">
-                    <div class="p-lr p-tb05 dib m-b0 bg-head color-black text-nowrap">区域</div>
-                    <div class="ub-f1 flex select-drop ub-pre">
-                        <div class="ub-f1 p-lr text-overflow p-tb05 select-text">平平</div>
-                        <div class="p-lr05 "><i class="icon-angle-down font-102"></i></div>
-                        <div class=" ub-pab select-box vux-1px w100 hide">
-                            <div class="p-lr p-tb05 font-1 select-group">授课计划1</div>
-                            <div class="p-lr p-tb05 font-1 select-group">授课计划2</div>
-                            <div class="p-lr p-tb05 font-1 select-group">授课计划3</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pre-item dib vux-1px flex">
-                    <div class="p-lr p-tb05 dib m-b0 bg-head color-black text-nowrap">日均销量</div>
-                    <div class="ub-f1 flex  ub-pre">
-                        <div class="ub-f1 p-lr text-overflow  select-text">
-                            <input type="text" class="no-border">
-                        </div>
-                        <div class="p-lr05 ">台</div>
-                    </div>
-                </div>
-                <div class="pre-item dib vux-1px flex">
-                    <div class="p-lr p-tb05 dib m-b0 bg-head color-black text-nowrap">限制渠道数</div>
-                    <div class="ub-f1 flex  ub-pre">
-                        <div class="ub-f1 p-lr text-overflow  select-text">
-                            <input type="text" class="no-border">
-                        </div>
-                        <div class="p-lr05">台</div>
-                    </div>
-                </div>
-                <div class="pre-item dib vux-1px flex">
-                    <div class="p-lr p-tb05 dib m-b0 bg-head color-black text-nowrap">销量</div>
-                    <div class="ub-f1 flex select-drop ub-pre">
-                        <div class="ub-f1 p-lr text-overflow p-tb05 select-text">销量提升</div>
-                        <div class="p-lr05 "><i class="icon-angle-down font-102"></i></div>
-                        <div class=" ub-pab select-box vux-1px w100 hide">
-                            <div class="p-lr p-tb05 font-1 select-group">销量提升</div>
-                            <div class="p-lr p-tb05 font-1 select-group">新品操盘</div>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -169,28 +230,123 @@
     </div>
 </div>
 
-
-<div class="modals  hide safeSet">
-    <div class="modals-dilog uba05 modals-set" style="left: 10%">
-        <div class="modals-content m-b">
-            <div class="modals-head flex  p-lr vux-1px-b">
-                <span class="ub-f1">设置</span>
-                <div class=" closeModals p-l ">&times;</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="border-radius: 20px;overflow: hidden;">
+            <div class="modal-header" style="background:rgb(115,155,220)">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title text-center color-white" id="myModalLabel">资源录入</h4>
             </div>
-            <div class="modals-body maxheight p-lr" style="min-height: 200px">
-                <div class="vux-1px-b p-tb05 flex">
-                    <div class="ub-f1">清空所有聊天记录</div>
-                    <div class="color-red p-lr02 p-tb02" id="clearRecode">清空</div>
+            <div class="modal-body row">
+                <div class="col-xs-12">
+                    <form class="form-horizontal" role="form">
+                        <div class="row">
+                            <div class="flex col-sm-12 p-tb">
+                                <div class="ub-f1">厂家资源投入</div>
+                                <button class="btn btn-primary">新增</button>
+                            </div>
+                            <div class="form-group vux-1px-b">
+                                <label class="col-sm-3 control-label no-padding-right" for="form-field-2">品牌</label>
+                                <div class="col-sm-9">
+                                    <select class=" form-control" id="">
+                                        <option value="">选择品牌</option>
+                                        <option value="AL">华为</option>
+                                        <option value="AK">vivo</option>
+                                        <option value="AZ">小米</option>
+                                        <option value="AR">魅族</option>
+                                        <option value="CA">苹果</option>
+                                        <option value="CO">三星</option>
+                                        <option value="CT">锤子</option>
+                                        <option value="WY">联想</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group vux-1px-b">
+                            <label class="col-sm-6 control-label no-padding-right" for="form-field-2">
+                                <input type="checkbox" id="form-field-2" name="">厂促人员
+                                <input type="number" style="width:175px;margin-left:20px" placeholder="人员数量">
+                            </label>
+                            <label class="col-sm-6 control-label no-padding-right" for="form-field-03">
+                                <input type="checkbox" id="form-field-03" name="">专区专柜
+                                <input type="number" style="width:175px;margin-left:20px" placeholder="数量">
+                            </label>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <div class="flex col-sm-12 p-tb">
+                            <div class="ub-f1">地包资源投入</div>
+                            <button class="btn btn-primary">新增</button>
+                        </div>
+                    </div>
+                    <form class="form-inline flex">
+                        <div class="form-group flex ub-f1">
+                            <label for="exampleInputName2">人员</label>
+                            <input type="text" class="form-control ub-f1 m-l" id="" placeholder="">
+                        </div>
+                        <div class="form-group flex ub-f1 m-l">
+                            <label for="" class="m-l">联系方式</label>
+                            <input type="tel" class="form-control ub-f1 m-l" id="" placeholder="">
+                        </div>
+                    </form>
+                    <div class="row">
+                        <label class="col-sm-3 text-right control-label no-padding-right" for="form-field-5">负责区域</label>
+                        <div class="col-sm-9">
+                            <label for=""><input type="checkbox">青羊区</label>
+                            <label for=""><input type="checkbox">青羊区</label>
+                            <label for=""><input type="checkbox">青羊区</label>
+                            <label for=""><input type="checkbox">青羊区</label>
+                            <label for=""><input type="checkbox">青羊区</label>
+                            <label for=""><input type="checkbox">青羊区</label>
+                            <label for=""><input type="checkbox">青羊区</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="flex col-sm-12 p-tb">
+                            <div class="ub-f1">地包资源投入</div>
+                            <button class="btn btn-primary">新增</button>
+                        </div>
+                    </div>
+                    <form class="form-inline flex">
+                        <div class="form-group flex ub-f1">
+                            <label for="exampleInputName2">人员</label>
+                            <input type="text" class="form-control ub-f1 m-l" id="" placeholder="">
+                        </div>
+                        <div class="form-group flex ub-f1 m-l">
+                            <label for="" class="m-l">联系方式</label>
+                            <input type="tel" class="form-control ub-f1 m-l" id="" placeholder="">
+                        </div>
+                    </form>
+                    <div class="form-group vux-1px-b">
+                        <label class="col-sm-3 control-label no-padding-right" for="form-field-4">培训内容</label>
+
+                        <div class="col-sm-9"><select class=" form-control" id="form-field-4">
+                            <option value="">&nbsp;</option>
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="WY">Wyoming</option>
+                        </select>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </div>
-        <div class="modals-footer ub-pab b0 w100 p-tb05 p-lr bg-head text-right uba05">
+            <div class="modal-footer flex">
+                <div class="ub-f1 text-center" style="color:rgb(165,186,255)">确定</div>
+                <div class="ub-f1 text-center" data-dismiss="modal">取消</div>
 
+            </div>
         </div>
     </div>
 </div>
 <script type="text/javascript">
-    window.jQuery || document.write("<script src='../../lib/assets/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+    window.jQuery || document.write("<script src='../../lib/assets/js/jquery-2.0.3.min.js'>" + "<" + "/script>");
 </script>
 <script src="../../lib/assets/js/bootstrap.min.js"></script>
 <script src="../../lib/assets/js/typeahead-bs2.min.js"></script>
@@ -199,19 +355,27 @@
 <script src="../../lib/assets/js/chosen.jquery.min.js"></script>
 <script src="../../lib/assets/js/ace-elements.min.js"></script>
 <script src="../../lib/assets/js/ace.min.js"></script>
+<script src="../../lib/assets/js/jquery.dataTables.min.js"></script>
+<script src="../../lib/assets/js/jquery.dataTables.bootstrap.js"></script>
 
 <script>
-    $(document).on('click','.select-drop',function(){
+    var oTable1 = $('#sample-table-2').dataTable({
+        ordering: false,
+        paging: false,
+        info: false,
+        lengthChange: false,
+        searching: false
+    });
+    $(document).on('click', '.select-drop', function () {
         $(this).find('.select-box').removeClass('hide')
     })
-    $(document).on('click','.select-box .select-group',function(e){
+    $(document).on('click', '.select-box .select-group', function (e) {
         e.stopPropagation()
         e.preventDefault()
-        var selecthtml=$(this).html()
+        var selecthtml = $(this).html()
         $(this).parent().siblings('.select-text').html(selecthtml)
         $(this).parent().addClass('hide')
     })
-
 </script>
 
 

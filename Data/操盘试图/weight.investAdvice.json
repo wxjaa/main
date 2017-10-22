@@ -1,0 +1,21 @@
+/**品牌资源投入建议**/
+/**机型,地域ID（地图缩放层级ID）,层级**/
+/**shoppingPk,code,grade**/
+/****/
+/**渠道名称,建议,责任人**/
+
+{
+        "flag":true,
+        "output":[
+            {
+                "channelName":"青羊宫1",
+                "advice":"建议",
+                "charger":"张明"
+            },
+            {
+               "channelName":"青羊宫2",
+                "advice":"建议",
+                "charger":"张良"
+            }
+        ]
+}

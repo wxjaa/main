@@ -1,0 +1,19 @@
+/**系统登录**/
+/**login,pwd**/
+{
+        "flag":true,
+        "output":[
+            {
+                "itemId":"01",
+                "itemName":"华为-P10PLUS顶配-VKY-AL00(4G)",
+                "itemDesc":"20008637",
+                "itemType":"20008637"
+            },
+            {
+                "itemId":"01",
+                "itemName":"华为-P10PLUS顶配-VKY-AL00(4G)",
+                "itemDesc":"20008637",
+                "itemType":"20008637"
+            }
+        ]
+}

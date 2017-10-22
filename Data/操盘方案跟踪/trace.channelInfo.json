@@ -1,0 +1,27 @@
+/**厅店执行情况**/
+/**操盘方案ID**/
+/**projectId**/
+/****/
+/**区县经营单元,渠道名称,厅店销售能力特征,上一代或目标产品销售特征,目标品牌厂促人员数量,目标品牌专区专柜数量,目标品牌影响力,渠道大类,归属代理商,日均销售目标,当前日均销量,提升率,当前库存,责任人**/
+
+{
+        "flag":true,
+        "output":[
+            {
+                "cell":"",
+                "channelName":"",
+                "saleAblity":"",
+                "lastProductStatus":"",
+                "brandPromoteCnt":"",
+                "brandCounterCnt":"",
+                "brandInfluence":"",
+                "channelType":"",
+                "belong":"",
+                "dailyCnt":"",
+                "currDaily":"",
+                "reate":"",
+                "currKucun":"",
+                "charger":""
+            }
+        ]
+}

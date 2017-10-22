@@ -1,0 +1,17 @@
+/**刷新KPI数据**/
+/**机型,地域ID（地图缩放层级ID）**/
+/**shoppingPk,code**/
+/****/
+/**已覆盖渠道数,未覆盖渠道数,建议覆盖渠道数**/
+
+
+{
+        "flag":true,
+        "output":[
+            {
+                "chnCnt":"",
+                "coverdChnCnt":"",
+                "otherCnt":""
+            }
+        ]
+}
