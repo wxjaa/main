@@ -881,18 +881,28 @@ ul li {
 
 .tag.active{
     position: relative;
-    border:1px dotted rgb(247,249,255);
+    border:1px dotted rgb(165,186,255);
     overflow: hidden;
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
 }
 .tag.active:before{
-
+    content: '\f00c';
+    color: #fff;
     position: absolute;
-    background: rgb(247,249,255);
-    right:0;
-    bottom:0;
-    content: '';
-    width:20px;
-    height:20px;
+    right: 1px;
+    z-index: 999;
+    bottom: -4px;
+}
+.tag.active:after{
+    position: absolute;
+    background: rgb(165,186,255);
+    right:-15px;
+    bottom:-15px;
+ content:'';
+    width:30px;
+    height:30px;
     transform: rotate(45deg);
-
 }
