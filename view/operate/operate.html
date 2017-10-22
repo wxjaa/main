@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- IE 兼容模式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>有工程</title>
+    <link href="../../lib/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../lib/assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../../lib/assets/css/ace-fonts.css" />
+    <link rel="stylesheet" href="../../lib/assets/css/ace.min.css" />
+    <link rel="stylesheet" href="../../lib/assets/css/chosen.css" />
+    <link rel="stylesheet" href="../../lib/assets/css/ace-rtl.min.css" />
+    <!--[if lt IE 9]>
+    <script src="../../lib/assets/js/html5shiv.js"></script>
+    <script src="../../lib/assets/js/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="../../lib/css/base.css"/>
+<link rel="stylesheet" type="text/css" href="../../lib/css/main.css"/>
+<link rel="stylesheet" type="text/css" href="../../lib/css/operate.css"/>
+
+</head>
+<body class="bg-white">
+    <div class="header-bg">
+        <div class="container">
+            <div class="navbar-container  clearfix  p-r0" id="navbar-container">
+                <div class="navbar-header pull-left mainchose flex">
+                    <div class="logo lf line-height-100">
+                        <div class="dib vux-1px-r">
+                            <!--<img src="lib/img/logo.png" alt="">-->
+                        </div>
+                        <span class="font-102 color-white">终端智慧运营大数据平台</span>
+                    </div>
+                    <div class="lf m-l"></div>
+                </div><!-- /.navbar-header -->
+
+                <div class="navbar-header pull-right" role="navigation">
+                    <ul class="nav ace-nav header-nav">
+                        <li class="layui-nav-item " id="">
+                            <a data-toggle="dropdown" class="dropdown-toggle p-lr" id="" href="#">
+                                <span>地包商A</span>
+                            </a>
+                        </li>
+                        <li class="layui-nav-item " id="">
+                            <a data-toggle="dropdown" class="dropdown-toggle p-lr" id="" href="#">
+                                <i class="icon-envelope icon-animated-vertical"></i>
+                                <span>信息</span>
+                            </a>
+                        </li>
+                        <li class="layui-nav-item " id="">
+                            <a data-toggle="dropdown" class="dropdown-toggle p-lr" id="" href="#">
+
+                                <span>退出</span>
+                            </a>
+                        </li>
+                    </ul><!-- /.ace-nav -->
+                </div><!-- /.navbar-header -->
+            </div>
+        </div>
+
+    </div>
+    <div class="bg-white m-tb overflow-hidden">
+        <div class="container">
+            <!--导航-->
+            <div class="nav-list font-1 p-tb">
+                <div class="pull-left">
+                    <i class=" icon-bar color-blue"></i>
+                    全部导航
+                </div>
+                <ul class="pull-right">
+                    <li class="p-lr dib"><a href="#" class="font-1">终端操作</a></li>
+                    <li class="p-lr dib"><a href="#" class="font-1">运营视图</a></li>
+                    <li class="p-lr dib"><a href="#" class="font-1">资源管理</a></li>
+                    <li class="p-lr dib"><a href="#" class="font-1">权限管理</a></li>
+                    <li class="p-l dib"><a href="#" class="font-1">统计分析</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs" id="breadcrumbs">
+        <div class="container">
+            <ul class="breadcrumb">
+                <li>
+                    <i class="icon-home home-icon"></i>
+                    <a href="#" class="color-black">首页</a>
+                </li>
+                <li>
+                    <a href="#" class="color-black">终端操盘</a>
+                </li>
+                <li class="active color-blue">终端操盘跟踪</li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="container">
+            <!--我的操盘方案-->
+            <div class="pre-condition m-t2">
+                <div class="title-small vux-1px-b flex">
+                    <div class="p-lr font-1 p-tb02">我的操盘方案</div>
+                </div>
+                <table class="table tabel-hover">
+                    <tr class='header-gray'>
+                        <th class="first-td">方案名称</th>
+                        <th>方案详情</th>
+                        <th>预算时间</th>
+                        <th>操作</th>
+                    </tr>
+                    <tr>
+                        <td class="first-td">华为麦芒5操盘方案</td>
+                        <td>成都市建议覆盖数4444</td>
+                        <td>2017-01-02</td>
+                        <td class="set-btn"><i id="" class="icon-cog m-r10 feedbackBtn"></i><i class="icon-edit"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="first-td">华为麦芒5操盘方案</td>
+                        <td>成都市建议覆盖数4444</td>
+                        <td>2017-01-02</td>
+                        <td class="set-btn"><i class="icon-cog m-r10 feedbackBtn"></i><i class="icon-edit"></i></td>
+                    </tr>
+                </table>
+                <nav class="flex pages" aria-label="">
+                    <ul class="pagination m-b0">
+                        <li class=""><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                        <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                        <li class=""><a href="#">2 <span class="sr-only">(current)</span></a></li>
+                        <li class=""><a href="#">3 <span class="sr-only">(current)</span></a></li>
+                        <li class=""><a href="#">4 <span class="sr-only">(current)</span></a></li>
+                        <li class=""><a href="#">5 <span class="sr-only">(current)</span></a></li>
+                        <li class=""><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                    </ul>
+                    <div class="flex" style="">
+                        <span class="m-r10">共100页，到第</span><input class="m-r10 page-index" type="text"><span class="m-r10">页</span>
+                        <ul class="pagination m0">
+                            <li class=""><a href="#">确定<span class="sr-only"></span></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <!-- 方案执行情况 -->
+            <div class="pre-condition m-t2">
+                <div class="title-small vux-1px-b flex">
+                    <div class="p-lr font-1 p-tb02">方案执行概况</div>
+                </div>
+                <div style="position:relative;margin-top:10px; height: 400px;">
+                    <div id="operateBox1" style="width:500px; height: 200px; position: absolute;top: 0; left: 0;"></div>
+                    <div id="operateBox2" style="width:500px; height: 200px; position: absolute;left: 0;bottom:0;"></div>
+                    <div id="operateBox3" style="width:600px; height: 280px; position: absolute;right: 0;bottom:0;"></div>
+                    <table class="table tabel-hover" style="position: absolute;top:0; right:0;width: 600px;margin-top: 20px;">
+                        <tr class='header-gray'>
+                            <th>累计入子池</th>
+                            <th>累计入库</th>
+                            <th>当前库存</th>
+                            <th>渠道覆盖数目标</th>
+                            <th>当前渠道覆盖数</th>
+                            <th>日均销量目标</th>
+                            <th>当前日均销量</th>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>4</td>
+                            <td>2</td>
+                            <td>2.3</td>
+                            <td>2</td>
+                            <td>4</td>
+                            <td>1.5</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!--厅店执行情况-->
+            <div class="pre-condition m-t2">
+                <div class="title-small vux-1px-b flex">
+                    <div class="p-lr font-1 p-tb02">厅店执行情况</div>
+                </div>
+                <table class="table tabel-hover">
+                    <tr class='header-gray'>
+                        <th>区县经营单元</th>
+                        <th>渠道名称(店中商)</th>
+                        <th>厅店销售能力</th>
+                        <th>上一代或目标产品销售特征</th>
+                        <th>目标品牌厂促销人员数量</th>
+                        <th>目标品牌专区专柜</th>
+                        <th>目标品牌影响力</th>
+                        <th>渠道大类</th>
+                        <th>归属代理商</th>
+                        <th>日均销售目标</th>
+                        <th>当前日均销量</th>
+                        <th>提升率</th>
+                        <th>当前库存</th>
+                        <th>责任人</th>
+                    </tr>
+                    <tr>
+                        <td>青羊宫代理点</td>
+                        <td>销售能力特征</td>
+                        <td>操盘特征</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>产品特征</td>
+                        <td>5</td>
+                        <td>4</td>
+                        <td>-2.6%</td>
+                        <td>2</td>
+                        <td>销售计划</td><td>销售计划</td><td>销售计划</td><td>销售计划</td>
+                    </tr>
+                    
+                </table>
+                <nav class="flex pages" aria-label="">
+                    <ul class="pagination m-b0">
+                        <li class=""><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                        <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                        <li class=""><a href="#">2 <span class="sr-only">(current)</span></a></li>
+                        <li class=""><a href="#">3 <span class="sr-only">(current)</span></a></li>
+                        <li class=""><a href="#">4 <span class="sr-only">(current)</span></a></li>
+                        <li class=""><a href="#">5 <span class="sr-only">(current)</span></a></li>
+                        <li class=""><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                    </ul>
+                    <div class="flex" style="">
+                        <span class="m-r10">共100页，到第</span><input class="m-r10 page-index" type="text"><span class="m-r10">页</span>
+                        <ul class="pagination m0">
+                            <li class=""><a href="#">确定<span class="sr-only"></span></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <!--资源投入计划跟踪-->
+            <div class="pre-condition m-t2">
+                <div class="title-small vux-1px-b flex">
+                    <div class="p-lr font-1 p-tb02">资源投入计划跟踪(如：专柜、专员、店奖)</div>
+                </div>
+                <table class="table tabel-hover">
+                    <tr class='header-gray'>
+                        <th>渠道名称</th>
+                        <th>建议内容</th>
+                        <th>责任人</th>
+                        <th>完成情况</th>
+                    </tr>
+                    <tr>
+                        <td>青羊宫代理点</td>
+                        <td>销售能力特征</td>
+                        <td>操盘特征</td>
+                        <td>销售计划</td>
+                    </tr>
+                    
+                </table>
+            </div>
+            <!--营销作业计划跟踪-->
+            <div class="pre-condition m-t2">
+                <div class="title-small vux-1px-b flex">
+                    <div class="p-lr font-1 p-tb02">营销作业计划跟踪(如：培训、活动、物料)</div>
+                </div>
+                <table class="table tabel-hover">
+                    <tr class='header-gray'>
+                        <th>渠道名称</th>
+                        <th>建议内容</th>
+                        <th>责任人</th>
+                        <th>完成情况</th>
+                    </tr>
+                    <tr>
+                        <td>青羊宫代理点</td>
+                        <td>销售能力特征</td>
+                        <td>操盘特征</td>
+                        <td>销售计划</td>
+                    </tr>
+                    
+                </table>
+            </div>
+            <!--渠道库存周转率-->
+            <div class="pre-condition m-t2 hide">
+                <div class="title-small vux-1px-b flex">
+                    <div class="p-lr font-1 p-tb02">渠道库存周转率</div>
+                </div>
+                <table class="table tabel-hover">
+                    <tr class='header-gray'>
+                        <th>类别</th>
+                        <th>Top1</th>
+                        <th>Top2</th>
+                        <th>Top3</th>
+                        <th>Top4</th>
+                        <th>Top5</th>
+                        <th>Top6</th>
+                        <th>Top7</th>
+                        <th>Top8</th>
+                        <th>Top9</th>
+                        <th>Top10</th>
+                        <th>操作</th>
+                    </tr>
+                    <tr>
+                        <td style="color: green;">最高Top10</td>
+                        <td>渠道1</td>
+                        <td>渠道2</td>
+                        <td>渠道3</td>
+                        <td>渠道4</td>
+                        <td>渠道5</td>
+                        <td>渠道6</td>
+                        <td>渠道7</td>
+                        <td>渠道8</td>
+                        <td>渠道9</td>
+                        <td>渠道10</td>
+                        <td rowspan="2" style="padding-top: 20px; color: #fff;"><span style="padding: 4px 6px; background: orange; border-radius:3px;">
+                            <i class=" icon-download"></i><span>导出</span>
+                        </span></td>
+                    </tr>
+                    <tr>
+                        <td>周转率</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                    </tr>
+                    <tr class="border-tr">
+                        <td style="color:red;">最低Top10</td>
+                        <td>渠道1</td>
+                        <td>渠道2</td>
+                        <td>渠道3</td>
+                        <td>渠道4</td>
+                        <td>渠道5</td>
+                        <td>渠道6</td>
+                        <td>渠道7</td>
+                        <td>渠道8</td>
+                        <td>渠道9</td>
+                        <td>渠道10</td>
+                        <td rowspan="2" style="padding-top: 20px; color: #fff;"><span style="padding: 4px 6px; background: orange; border-radius:3px;">
+                            <i class=" icon-download"></i><span>导出</span>
+                        </span></td>
+                    </tr>
+                    <tr>
+                        <td>周转率</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                    </tr>
+                </table>
+                <nav class="flex pages" aria-label="">
+                    <ul class="pagination m-b0">
+                        <li class=""><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                        <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                        <li class=""><a href="#">2 <span class="sr-only">(current)</span></a></li>
+                        <li class=""><a href="#">3 <span class="sr-only">(current)</span></a></li>
+                        <li class=""><a href="#">4 <span class="sr-only">(current)</span></a></li>
+                        <li class=""><a href="#">5 <span class="sr-only">(current)</span></a></li>
+                        <li class=""><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                    </ul>
+                    <div class="flex" style="">
+                        <span class="m-r10">共100页，到第</span><input class="m-r10 page-index" type="text"><span class="m-r10">页</span>
+                        <ul class="pagination m0">
+                            <li class=""><a href="#">确定<span class="sr-only"></span></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <!--补货作业计划-->
+            <div class="pre-condition m-t2 m-b40">
+                <div class="title-small vux-1px-b flex">
+                    <div class="p-lr font-1 p-tb02">补货作业计划建议</div>
+                </div>
+                <div class="addGoods">
+                    <button type="button" class="btn btn-primary">生成补货作业计划</button>
+                    <button type="button" class="btn btn-primary">导出</button>
+                </div>
+                <table class="table tabel-hover">
+                    <tr class='header-gray'>
+                        <th>渠道名称</th>
+                        <th>当前库存</th>
+                        <th>近七日日均销量</th>
+                        <th>价值段近七日销量</th>
+                        <th>剩余支撑天数</th>
+                        <th>建议补货</th>
+                    </tr>
+                    <tr>
+                        <td>青羊宫代理点</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>8</td>
+                        <td>0</td>
+                        <td>建议补货9台</td>
+                    </tr>
+                    
+                </table>
+            </div>
+
+            
+        </div>
+
+    </div>
+</div>
+
+
+<div class="modals  hide safeSet">
+    <div class="modals-dilog uba05 modals-set" style="left: 10%">
+        <div class="modals-content m-b">
+            <div class="modals-head flex  p-lr vux-1px-b">
+                <span class="ub-f1">设置</span>
+                <div class=" closeModals p-l ">&times;</div>
+            </div>
+            <div class="modals-body maxheight p-lr" style="min-height: 200px">
+                <div class="vux-1px-b p-tb05 flex">
+                    <div class="ub-f1">清空所有聊天记录</div>
+                    <div class="color-red p-lr02 p-tb02" id="clearRecode">清空</div>
+                </div>
+            </div>
+        </div>
+        <div class="modals-footer ub-pab b0 w100 p-tb05 p-lr bg-head text-right uba05">
+
+        </div>
+    </div>
+</div>
+<div id="feedback" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" ><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="gridSystemModalLabel">方案反馈</h4>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+              <div class="col-md-8">方案名称：</div>
+              <div class="col-md-4">.col-md-4</div>
+        </div>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal" style="border-radius: 3px; background-color: #ddd !important; color: #333 !important; border:0 !important;">关闭</button>
+    <button type="button" class="btn btn-primary" style="border-radius: 3px; background-color: #677fd1 !important; border:0 !important;">确定</button>
+</div>
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<script type="text/javascript">
+    window.jQuery || document.write("<script src='../../lib/assets/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+</script>
+<script src="../../lib/assets/js/bootstrap.min.js"></script>
+<script src="../../lib/assets/js/echarts.js"></script>
+<script src="../../lib/assets/js/typeahead-bs2.min.js"></script>
+<script src="../../lib/assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="../../lib/assets/js/jquery.validate.min.js"></script>
+<script src="../../lib/assets/js/chosen.jquery.min.js"></script>
+<script src="../../lib/assets/js/ace-elements.min.js"></script>
+<script src="../../lib/assets/js/ace.min.js"></script>
+
+<script>
+   $(document).on('click','.select-drop',function(e){
+       e.stopPropagation()
+       $(this).find('.select-box').removeClass('hide')
+   })
+   $(document).on('click','.select-box .select-group',function(e){
+    e.stopPropagation()
+    e.preventDefault()
+    var selecthtml=$(this).html()
+    $(this).parent().siblings('.select-text').html(selecthtml)
+    $(this).parent().addClass('hide')
+})
+   $(document).on('click','body',function(e){
+    e.stopPropagation()
+    e.preventDefault()
+    $('.select-box').addClass('hide');
+})
+
+   var myChart1 = echarts.init(document.getElementById('operateBox1'));
+    // 指定图表的配置项和数据
+    var option1 = {
+        title: {
+            text: '标题1',
+            left:'center'
+        },
+        tooltip: {},
+        legend: {
+            data:['锁定情况','当前情况'],
+            right: '40px',
+            top: '6px'
+        },
+        xAxis: {
+            data: ["高产低占","高产高占","低产低占"]
+        },
+        yAxis: {},
+        series: [{
+            name: '销量',
+            type: 'bar',
+            data: [5, 20, 36]
+        },{
+            name: '销量1',
+            type: 'bar',
+            data: [10, 2, 35]
+        }]
+    };
+    // 使用刚指定的配置项和数据显示图表。
+    myChart1.setOption(option1);
+
+    var myChart2 = echarts.init(document.getElementById('operateBox2'));
+    // 指定图表的配置项和数据
+    var option2 = {
+        color: ['#4cabce', '#006699'],
+        title: {
+            text: '标题1',
+            left:'center'
+        },
+        tooltip: {},
+        legend: {
+            data:['销量','销量1'],
+            right: '40px',
+            top: '6px'
+        },
+        xAxis: {
+            data: ["高产低占","高产高占","低产低占",'零覆盖']
+        },
+        yAxis: {},
+        series: [{
+            name: '锁定销',
+            type: 'bar',
+            data: [5, 20, 36],
+        },{
+            name: '当前销',
+            type: 'bar',
+            data: [10, 2, 35]
+        }]
+    };
+    // 使用刚指定的配置项和数据显示图表。
+    myChart2.setOption(option2);
+
+    var myChart3 = echarts.init(document.getElementById('operateBox3'));
+    // 指定图表的配置项和数据
+    var option3 = {
+        color: ['#869be2'],
+        title: {
+            text: '标题1',
+            left:'center'
+        },
+        tooltip: {},
+        legend: {
+            data:['销量'],
+            right: '40px',
+            top: '6px',
+            show: false
+        },
+        xAxis: {
+            data: ["子池","入库","当前库存"]
+        },
+        yAxis: {},
+        series: [{
+            name: '销量',
+            type: 'bar',
+            data: [5, 20, 36],
+        }]
+    };
+    // 使用刚指定的配置项和数据显示图表。
+    myChart3.setOption(option3);
+
+    $('.feedbackBtn').click(function () {
+        $('#feedback').modal();
+    })
+</script>
+
+
+</body>
+</html>
